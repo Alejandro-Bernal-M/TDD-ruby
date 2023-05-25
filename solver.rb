@@ -5,7 +5,7 @@ class Solver
     return 1 if number.zero?
 
     response = 1
-    while n.positive?
+    while number.positive?
       response = number * response
       number -= 1
     end

@@ -12,7 +12,7 @@ describe Solver do
     end
 
     it 'Return error if negative number' do
-      expect { solver.factorial(-2) }.to raise_error('No negative numbers', ArgumentError)
+      expect{ solver.factorial(-2) }.to raise_error('No negative numbers', ArgumentError)
     end
   end
 end
@@ -20,19 +20,19 @@ end
 describe 'testing fizzbuzz method' do
   it 'When N is divisible by 3, return "fizz"' do
     solver = Solver.new
-    solver.fizzbuzz(3).should == 'fizz'
+    expect(solver.fizzbuzz(3)).to eq('fizz')
   end
   it 'When N is divisible by 5, return "buzz"' do
     solver = Solver.new
-    solver.fizzbuzz(5).should == 'buzz'
+    expect(solver.fizzbuzz(5)).to eq('buzz')
   end
   it 'When N is divisible by 3 and 5, return "fizzbuzz"' do
     solver = Solver.new
-    solver.fizzbuzz(15).should == 'fizzbuzz'
+    expect(solver.fizzbuzz(15)).to eq('fizzbuzz')
   end
   it 'When N is not divisible by 3 nor 5, return "N"' do
     solver = Solver.new
-    solver.fizzbuzz(7).should == '7'
+    expect(solver.fizzbuzz(7)).to eq('7')
   end
 end
 
