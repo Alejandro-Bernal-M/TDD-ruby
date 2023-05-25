@@ -12,8 +12,7 @@ describe Solver do
     end
 
     it 'Return error if negative number' do
-      expect{solver.factorial(-2)}.to raise_error("No negative numbers", StandardError)
+      expect { solver.factorial(-2) }.to raise_error('No negative numbers', ArgumentError)
     end
   end
-  
 end
