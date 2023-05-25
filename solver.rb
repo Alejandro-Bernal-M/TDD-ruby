@@ -10,4 +10,8 @@ class Solver
       n.to_s
     end
   end
+
+    def reverse(string)
+        string.reverse
+    end
 end
