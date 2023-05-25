@@ -50,7 +50,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [TDD-ruby] <a name="about-project"></a>
 
-**[TDD-ruby]** Is a Library manager for a school.
+**[TDD-ruby]** Is a test driven development project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -67,7 +67,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **[manages which persons takes books from the library and which books are lend by the library identifying if it's a student or a teacher]**
+- **[TDD]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
